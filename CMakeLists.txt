@@ -6,7 +6,8 @@ enable_testing()
 
 add_executable(ohnonogram
     main.c
-    gamestate.h)
+    gamestate.h
+    gamestate.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
