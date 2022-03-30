@@ -5,7 +5,7 @@ void initGameState(struct GameState *game_state)
     int row_clues[MAX_PUZZLE_LENGTH][CLUE_LENGTH];
     int col_clues[MAX_PUZZLE_LENGTH][CLUE_LENGTH];
     enum TileState tiles[MAX_PUZZLE_LENGTH][MAX_PUZZLE_LENGTH];
-    game_state->puzzle_width = 15;
+    game_state->puzzle_width = 20;
     game_state->puzzle_height = 15;
     game_state->game_start_time = 0;
     game_state->cursor_x_pos = 0;
